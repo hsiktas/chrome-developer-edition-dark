@@ -19,13 +19,27 @@
 			"tab_text":[255,255,255],
 			"tab_background_text":[255,255,255],
 			"bookmark_text":[255,255,255],
-			"button_background":[57,63,76,1]
+			"button_background":[57,63,76,1],
+			"ntp_background": [57,63,76],
+			"ntp_header": [57,63,76],
+			"ntp_link": [ 255, 255, 255 ],
+			"ntp_link_underline": [ 255, 255, 255 ],
+			"ntp_section": [ 74, 74, 74 ],
+			"ntp_section_link": [ 6, 55, 116 ],
+			"ntp_section_link_underline": [ 255, 255, 255 ],
+			"ntp_section_text": [ 255, 255, 255 ],
+			"ntp_text": [ 255, 255, 255 ]
 		},
 		"tints":{
 			"buttons":[0,0,1],
 			"frame_inactive":[-1,-1,-1],
 			"frame_incognito_inactive":[-1,-1,-1],
 			"background_tab":[-1,-1,-1]
+		},
+		"properties": {
+			"ntp_background_alignment": "center bottom",
+			"ntp_background_repeat": "no-repeat",
+			"ntp_logo_alternate": 0
 		}
 	},
 	"icons":{
